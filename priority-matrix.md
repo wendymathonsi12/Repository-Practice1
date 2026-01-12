@@ -47,3 +47,7 @@
 | Story 8 | Title                       | Business Value | Technical Complexity | Priority | Sprint |
 |--------:|-------------------------------|----------------|----------------------|----------|--------|
 | 13      | Booking Conflict Resolution  | High           | High                 | High     | 2      |
+
+| Story 9 | Title                       | Business Value | Technical Complexity | Priority | Sprint |
+|--------:|-------------------------------|----------------|----------------------|----------|--------|
+| 14      | Usage Reports Generation     | High           | Medium               | High     | 2      |

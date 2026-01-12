@@ -161,12 +161,13 @@ High
 ## Story #6: Room maintenance scheduling (Facilities Manager) 
 
 **As a** Facilities Manager
-**I want to** Vi can monitor usage and make data driven decisions
+**I want to** schedule maintainance for conference rooms
+**So that** rooms remain in good condition
 
 ### Acceptance Criteria:
-- [ ] Given I am logged in as an admin, When I open the dashboard, Then I see key metrics (room usage, bookings, cancellations)
-- [ ] Given I am viewing the dashboard, When I filter by date or room, Then metrics update accordingly
-- [ ] Given system events occur (new booking/cancellation), When the dashboard refreshes, Then updated data is displayed
+- [ ] Given a room requires maintenance, When I schedule it, Then the room is marked as unavailable during that time
+- [ ] Given scheduled maintenance, When a user tries to book the room, Then they are notified that the room is unavailable
+- [ ] Given maintenance is completed or cancelled, When the schedule updates, Then the room becomes available immediately
 
 ### Story Points: 
 5 
@@ -175,12 +176,11 @@ High
 High 
 
 ### Dependencies:
-- Admin login/Auth for room booking data
+- Room booking system
 
 ### Technical Notes:
-- Dashboard should pull from existing data
-- Ensure data is accurate
+- Maintenance scheduling should integrate with room availability database
 
 ### Design Notes: 
-- Visual charts
+- UI should allow selection of date, time, and affected rooms
 

@@ -31,3 +31,7 @@
 | 6       | Cancel a Recurring Meeting           | Medium         | Medium               | Medium   | 2      |
 | 7       | View My Bookings                     | Medium         | Low                  | Medium   | 2      |
 | 8       | View Recurring Meetings              | Low            | Low                  | Low      | 3      |
+
+| Story 5 | Title                    | Business Value | Technical Complexity | Priority | Sprint |
+|--------:|--------------------------|----------------|----------------------|----------|--------|
+| 10      | Admin Dashboard Viewing  | High           | Medium               | High     | 2      |

@@ -237,4 +237,32 @@ High
 
 ### Design Notes: 
 - Conflict resolution interface should allow easy selection of which booking to keep 
--Conflicts should be visually
+- Conflicts should be visually
+
+## Story #8: Usage reports generation (Admin)   
+
+**As a** Admin
+**I want to** generate usage reports for rooms and bookings
+**So that** i can analyze trends
+
+### Acceptance Criteria:
+- [ ] Given I am logged in as an admin, When I access the reports section, Then I can select date ranges, rooms, and metrics to generate a report
+- [ ] Given report criteria are selected, When I generate the report, Then it accurately reflects bookings, cancellations, and usage trends
+- [ ] Given a report is generated, When I export it, Then it is available in PDF or CSV format
+
+### Story Points: 
+5 
+
+### Priority: 
+High 
+
+### Dependencies:
+- Admin dashboard 
+- Booking and room usage info
+
+### Technical Notes:
+- Reports should be generated 
+-Support multiple export formats
+
+### Design Notes: 
+-Provide charts and tables for quick insights

@@ -35,3 +35,8 @@
 
 ## Epic 1: Receptionist Booking Assistance
 - Story #12: Visitor Booking Assistance
+
+# Epic: Admin Management System
+
+## Epic 2: Booking Conflict Resolution
+- Story #13: Booking Conflict Resolution

@@ -40,3 +40,8 @@
 
 ## Epic 2: Booking Conflict Resolution
 - Story #13: Booking Conflict Resolution
+
+# Epic: Admin Management System
+
+## Epic 3: Usage Reports and Analytics
+- Story #14: Usage Reports Generation

@@ -12,3 +12,6 @@
 | 3       | Cancel a Recurring Meeting      | Medium         | Medium               | Medium   | 2      |
 | 4       | View Recurring Meetings         | Low            | Low                  | Low      | 3      |
 
+| Story 2 | Title                  | Business Value | Technical Complexity | Priority | Sprint |
+|--------:|------------------------|----------------|----------------------|----------|--------|
+| 1       | Filter Rooms by Capacity | High           | Low                  | High     | 1     |

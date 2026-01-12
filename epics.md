@@ -1,28 +1,22 @@
 # Epic: Conference Room Booking System
 
 ## Epic 1: Room Discovery
-- Story #1: View Available Conference Rooms
+- Story #1: Room Capacity Filtering (Employee)
+- Story #2: Room Equipment Requirements (Employee)
+- Story #3: View Available Conference Rooms (Employee)
 
 ## Epic 2: Booking Management
-- Story #2: Book a Conference Room
-- Story #3: Cancel or Modify a Booking
-- Story #4: View My Bookings
+- Story #4: Basic Room Booking (Employee)
+- Story #5: Booking Cancellation (Employee)
 
 # Epic: Recurring Meeting Setup System
 
-## Epic 1: Recurring Meeting Creation
-- Story #1: Set Up a Recurring Meeting
+## Epic 3: Recurring Meeting Creation
+- Story #6: Set Up a Recurring Meeting (Employee)
 
-## Epic 2: Recurring Meeting Management
-- Story #2: Edit a Recurring Meeting Series
-- Story #3: Cancel a Recurring Meeting
+## Epic 4: Recurring Meeting Management
+- Story #7: Edit a Recurring Meeting Series (Employee)
+- Story #8: Cancel a Recurring Meeting (Employee)
 
-## Epic 3: Meeting Visibility
-- Story #4: View Recurring Meetings
-
-# Epic: Conference Room Discovery Enhancements
-
-## Epic 1: Room Search and Filtering
-- Story #1: Filter Rooms by Capacity
-
-
+## Epic 5: Meeting Visibility
+- Story #9: View Recurring Meetings (Employee)

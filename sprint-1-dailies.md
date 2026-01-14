@@ -19,7 +19,7 @@ Blockers: None
 ### Team Member: Siphosenkosi
 
 Yesterday: Completed story #0 and continued work on Story #2
-Today: Finalize Story #2 and move it to DOD. Start working on story #3 
+Today: Finalize Story #2 and move it to DOD. Start working on story #3
 Blockers: None
 
 ## Day 4
@@ -27,7 +27,7 @@ Blockers: None
 ### Team Member: Siphosenkosi
 
 Yesterday: Worked on story #3 and reviewed recurrence requirements
-Today: Progress on story #4, Begin Initial work on story #5 (Admin Dashboard Viewing)
+Today: Complete story #3, Begin Initial work on story #4 (Filtering available rooms based on requirements)
 Blockers: Admin dashboard validation logic appears more complex thatn expected.
 
 ## Day 5

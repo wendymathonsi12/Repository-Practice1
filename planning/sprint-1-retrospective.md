@@ -1,6 +1,6 @@
 # Sprint 1 Retrospective
-Date: [Same date as review]
-Participants: [Your team members' names or roles]
+Date: 2026/01/15
+Participants: Zanke (Product Owner), Romio (Scrum Master), Wendy & Siphosenkosi (Developers)
 
 ## Start - Practices or behaviours to introduce next sprint
 

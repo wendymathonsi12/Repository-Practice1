@@ -1,7 +1,8 @@
 Conference Room Booking System - User Stories (C#/.NET & React Stack)
+
 Project: Conference Room Booking System
 Document Type: Requirements Specification (Technical Stack: ASP.NET Core / React)
-Version: 3.0
+Version: 1.0
 Created: 2026/01/16
 Author: BitCube Development Team
 Approved By: Technical Architecture Board
@@ -141,7 +142,8 @@ AC-0.2	No rooms available	Returns empty array with 200 OK	Displays "No rooms ava
 AC-0.3	Successful booking	POST returns 201 Created with booking ID	Shows success toast, clears form
 AC-0.4	Time conflict	Returns 409 Conflict with error details	Displays conflict error message
 AC-0.5	Invalid input	Returns 400 Bad Request with validation errors	Shows validation errors inline
-STORY #1: RECURRING MEETINGS SETUP
+
+STORY #1: RECURRING MEETINGS SETUP 
 ID: STORY-1
 Persona: Employee
 Business Value: High (P1)

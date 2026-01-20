@@ -25,10 +25,12 @@ Get the system running in under 5 minutes using Docker (recommended) or manual s
 
 Method A: Docker Setup (Fastest)
 
+
 ## 1. Clone repository
 
 git clone https://github.com/bitcube-dev/conference-room-booking-system.git
 cd conference-room-booking-system
+
 
 ## 2. Configure environment (MANDATORY - see section below)
 
@@ -36,13 +38,16 @@ cp .env.example .env
 
 ## Edit .env with your credentials
 
+
 ## 3. Start all services
 
 docker-compose up -d --build
 
+
 ## 4. Verify services are running
 
 docker-compose ps
+
 
 ## 5. Access applications:
 
@@ -410,3 +415,54 @@ Visual badges for quick project status
 Quick Links: 📊 Project Dashboard • 🔄 CI/CD • 📈 Metrics • 🐛 Issues
 
 For internal use only. Distribution restricted to BitCube authorized personnel.
+
+#  Purpose of the repository
+The purpose of this repo is to :
+- allow users to book and cancel existing bookings
+
+## Repository Context 
+- README.md - Important document
+- sprint - sprint planning and executuion
+- gitignore - gitignore rules 
+- LICENSE - official project license 
+
+## Installation 
+- Installation not required at this stage 
+
+## Usage
+This repository is used for:
+-  Reviewing code 
+- updating reame file 
+
+## Contributing 
+- Changes to this repository are made using pull request 
+
+## Deveoper Onboarding 
+- This project is developed incrementally as part of a software 
+- How it is expected it to be 
+- time constraints or timeframe to finish the project 
+- Technologies to be used in the project scope 
+
+## System Context 
+- The conference booking system is a conceptual system inteded to manage 
+
+
+## Project Documentation 
+- This repo contains sprint documentation created during the scrum 
+- updates pending from next sprint 
+
+
+## Upcoming Documentation 
+- Building UI/UX
+- API documentation 
+- Runtime instructions 
+- Developer setup and contribution 
+
+
+## LICENSE
+- The project is licensed under MIT
+
+## Author 
+- Siphosenkosi Sibiya: mphosiphosenkosi@gmail.com 
+- Wendy Mathonsi : wendymathonsi24@outlook.com 
+

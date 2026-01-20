@@ -9,29 +9,31 @@ https://img.shields.io/badge/License-MIT-green.svg
 Enterprise solution automating meeting room scheduling with real-time availability, conflict prevention, and smart resource optimization. Reduces booking time by 70% and eliminates scheduling conflicts.
 
 📖 Table of Contents
-🚀 Quick Start
 
-⚙️ Prerequisites
+**🚀 Quick Start**
 
-🔧 Environment Setup
+**⚙️ Prerequisites**
 
-🏗️ Project Structure
+**🔧 Environment Setup**
 
-🧪 Testing & Quality
+**🏗️ Project Structure**
 
-🔄 Development Workflow
+**🧪 Testing & Quality**
 
-📦 Deployment
+**🔄 Development Workflow**
 
-📞 Support & Contact
+**📦 Deployment**
 
-📄 Documentation & Compliance
+**📞 Support & Contact**
 
-🚀 Quick Start
+**📄 Documentation & Compliance**
+
+**🚀 Quick Start**
+
 Get the system running in under 5 minutes using Docker (recommended) or manual setup.
 
 Method A: Docker Setup (Fastest)
-bash
+
 # 1. Clone repository
 git clone https://github.com/bitcube-dev/conference-room-booking-system.git
 cd conference-room-booking-system
@@ -52,7 +54,7 @@ docker-compose ps
 # • Database: localhost:1433 (SA credentials from .env)
 # • Redis Cache: localhost:6379
 Method B: Manual Development Setup
-bash
+
 # Backend (ASP.NET Core API)
 cd src/backend/ConferenceRoomBooking
 dotnet restore
@@ -117,7 +119,7 @@ cd src/backend/ConferenceRoomBooking.API
 dotnet ef database update
 
 🏗️ Project Structure
-text
+
 conference-room-booking-system/
 ├── src/                           # Source Code
 │   ├── backend/                  # ASP.NET Core 8.0 (Clean Architecture)
@@ -141,6 +143,7 @@ conference-room-booking-system/
 │   └── docker-compose.yml
 ├── .github/workflows/           # CI/CD Pipelines
 └── docs/                        # Project Documentation
+
 🧪 Testing & Quality
 Running Test Suites
 Test Type	Command	Coverage Report	Purpose
@@ -162,14 +165,14 @@ Quality Gates (BitCube Standard)
 
 🔄 Development Workflow
 Git Branch Strategy
-bash
+
 main          # Production releases (protected)
 develop       # Integration branch
 feature/*     # New features (feature/STORY-42-booking-ui)
 release/*     # Version preparation
 hotfix/*      # Critical production fixes
 Commit Message Standard
-bash
+
 # Format: type(scope): description
 # 
 # Types: feat, fix, docs, style, refactor, test, chore
@@ -210,6 +213,7 @@ Minimum 1 reviewer approval
 Constructive feedback with suggestions
 
 📦 Deployment
+
 CI/CD Pipeline Stages
 yaml
 # .github/workflows/main.yml excerpt
@@ -222,12 +226,16 @@ jobs:
   frontend-build:   # Node.js build & test
   security-scan:    # Snyk vulnerability check
   deployment:       # Staging/Production deploy
+
 Environment URLs
+
 Environment	URL	Access	Purpose
 Development	http://localhost:3000	Local	Feature development
 Staging	https://staging.booking.bitcube.dev	VPN	Pre-release testing
 Production	https://booking.bitcube.dev	SSO	Live system
+
 📞 Support & Contact
+
 Immediate Assistance
 Issue Type	Primary Contact	Secondary Contact	Response SLA
 Technical Problems	Siphosenkosi (@siphosenkosi)	Wendy (@wendy)	4 hours
@@ -235,6 +243,7 @@ Process/Scrum	Romio (@romio)	Zanke Ferreira (@zanke)	2 hours
 Business Requirements	Zanke Ferreira (@zanke)	Product Team	1 day
 Security Issues	Security Team (@security)	Siphosenkosi	2 hours
 Support Channels
+
 💬 Slack: #conference-room-booking (Primary)
 
 📧 Email: support@bitcube.dev (External)
@@ -244,6 +253,7 @@ Support Channels
 🆘 Emergency: DevOps PagerDuty rotation
 
 📄 Documentation & Compliance
+
 Key Documentation Locations
 Document	Location	Owner	Review Cycle
 API Specs	/docs/api/ (OpenAPI 3.0)	Dev Team	Per release
@@ -251,6 +261,7 @@ User Guides	/docs/user-guides/	Product Owner	Per feature
 Architecture	/docs/architecture/	Senior Dev	Quarterly
 Decisions (ADR)	/docs/architecture/decisions/	Tech Lead	As needed
 Deployment Guides	/docs/deployment/	DevOps	Per environment
+
 Compliance Standards
 ✅ POPIA/GDPR: Full data protection implementation
 

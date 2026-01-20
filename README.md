@@ -100,20 +100,20 @@ cp .env.example .env
 Edit .env with these REQUIRED values:
 
 env
-# === DATABASE CONFIGURATION ===
+## === DATABASE CONFIGURATION ===
 DB_SERVER=localhost,1433
 DB_NAME=ConferenceRoomBooking
 DB_USER=sa
 DB_PASSWORD=YourStrong!Passw0rd  # CHANGE THIS IN PRODUCTION
 
-# === JWT AUTHENTICATION ===
+## === JWT AUTHENTICATION ===
 JWT_SECRET=your-256-bit-secret-minimum-32-characters  # GENERATE: openssl rand -base64 32
 JWT_EXPIRE_MINUTES=1440
 
-# === REDIS CACHE ===
+## === REDIS CACHE ===
 REDIS_CONNECTION=localhost:6379
 
-# === APPLICATION SETTINGS ===
+## === APPLICATION SETTINGS ===
 
 ASPNETCORE_ENVIRONMENT=Development
 FRONTEND_URL=http://localhost:3000
@@ -188,11 +188,12 @@ release/*     # Version preparation
 hotfix/*      # Critical production fixes
 Commit Message Standard
 
-# Format: type(scope): description
-# 
-# Types: feat, fix, docs, style, refactor, test, chore
-# 
-# Examples:
+## Format: type(scope): description
+
+ Types: feat, fix, docs, style, refactor, test, chore
+ 
+## Examples:
+
 git commit -m "feat(booking): add recurring meeting support"
 git commit -m "fix(api): resolve timezone handling in bookings"
 git commit -m "docs(readme): update environment setup instructions"
@@ -230,8 +231,10 @@ Constructive feedback with suggestions
 📦 Deployment
 
 CI/CD Pipeline Stages
+
 yaml
-# .github/workflows/main.yml excerpt
+
+## .github/workflows/main.yml excerpt
 name: BitCube Standard Pipeline
 on: [push, pull_request]
 
